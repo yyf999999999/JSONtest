@@ -1,4 +1,5 @@
 import textWarehouse from "./テスト.json" assert {type:"json"};
 console.log(textWarehouse);
-console.log("反映されてなくね?");
+console.log("なんでや!");
+console.log(textWarehouse,"なんでや!")
 //後で消す
