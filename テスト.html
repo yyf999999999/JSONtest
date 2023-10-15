@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="テスト.js"></script>
 </head>
 <body>
-    <script type="module" src="テスト.js"></script>
+    <script type="module">
+        import textWarehouse from "./テスト.json" assert {type:"json"};
+        console.log(textWarehouse);
+    </script>
 </body>
 </html>
